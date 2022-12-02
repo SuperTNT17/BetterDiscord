@@ -1,0 +1,40 @@
+/**
+  * @name Revert GG Sans
+  * @author SuperTNT
+  * @description Reverts Discord's 2022 gg sans font update
+  * @version 1.0
+*/
+
+@import url('https://fonts.cdnfonts.com/css/whitney-2');
+
+:root {
+    --font-primary: "Whitney";
+ }
+
+ .markup-eYLPri.messageContent-2t3eCI{
+     font-family: "Whitney Light";
+ }
+
+.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil{
+    font-family: "Whitney Light";
+}
+
+.placeholder-1rCBhr.slateTextArea-27tjG0.fontSize16Padding-XoMpjI{
+    font-family: var(--font-primary);
+}
+
+.unreadPill-3nEWYM{
+    font-family: "Whitney Light";
+}
+
+.botText-1fD6Qk{
+    font-family: "Whitney Light";
+}
+
+.contentWrapper-3vHNP2{
+    font-family: "Whitney Light";
+}
+
+strong{
+    font-family: var(--font-primary);
+}
