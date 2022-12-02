@@ -3,7 +3,7 @@
   * @author SuperTNT
   * @authorId 414429456363421696
   * @description Reverts Discord's 2022 gg sans font update
-  * @version 1.0
+  * @version 1.1
   * @source https://github.com/SuperTNT17/BetterDiscord/blob/main/themes/RevertGGSans.theme.css/
 */
 
@@ -11,32 +11,29 @@
 
 :root {
     --font-primary: "Whitney";
+    --font-primary-light: "Whitney Book";
+    --font-display: "Whitney";
  }
 
- .markup-eYLPri.messageContent-2t3eCI{
-     font-family: "Whitney Light";
- }
-
-.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil{
-    font-family: "Whitney Light";
+.markup-eYLPri.messageContent-2t3eCI,
+.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil,
+.unreadPill-3nEWYM,
+.botText-1fD6Qk,
+.contentWrapper-3vHNP2 {
+    font-family: var(--font-primary-light);
 }
 
-.placeholder-1rCBhr.slateTextArea-27tjG0.fontSize16Padding-XoMpjI{
+.placeholder-1rCBhr.slateTextArea-27tjG0.fontSize16Padding-XoMpjI,
+strong,
+.wrapper-1ZcZW- {
     font-family: var(--font-primary);
 }
 
-.unreadPill-3nEWYM{
-    font-family: "Whitney Light";
-}
-
-.botText-1fD6Qk{
-    font-family: "Whitney Light";
-}
-
-.contentWrapper-3vHNP2{
-    font-family: "Whitney Light";
-}
-
-strong{
-    font-family: var(--font-primary);
+.username-Qpc78p,
+.text-md-bold-22PzaZ,
+.text-sm-bold-1Dtt0R,
+.text-sm-semibold-3TWn25,
+.title-338goq,
+.bd-name {
+    font-weight: 500;
 }
