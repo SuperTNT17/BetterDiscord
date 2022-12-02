@@ -10,5 +10,5 @@ ___ ___ ___ ___ ___
 ## Themes
 
 Simply drop the css file in your BetterDiscord themes folder.
-You can get there by opening it through the theme settings in discord or going to your BetterDiscord directiory.
+You can get there by opening it through the theme settings in discord or going to your BetterDiscord directiory.\
 **Don't forget to enable the theme!**
